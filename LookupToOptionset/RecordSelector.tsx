@@ -1,6 +1,5 @@
-import { IDropdownStyleProps, IDropdownStyles } from '@fluentui/react';
-import { Dropdown, IDropdownOption } from 'office-ui-fabric-react';
 import * as React from 'react';
+import { Dropdown, IDropdownOption, IDropdownStyleProps, IDropdownStyles } from '@fluentui/react/lib/Dropdown';
 
 export interface IRecordSelectorProps {
     selectedRecordId: string | undefined;

@@ -1,8 +1,8 @@
-import { IDropdownOption } from "@fluentui/react";
 import { IInputs, IOutputs } from "./generated/ManifestTypes";
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
 import { RecordSelector } from "./RecordSelector";
+import { IDropdownOption } from "@fluentui/react/lib/Dropdown";
 
 export class LookupToOptionset implements ComponentFramework.StandardControl<IInputs, IOutputs> {
 
